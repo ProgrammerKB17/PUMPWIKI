@@ -1,0 +1,220 @@
+.heading{
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    color: #000;
+    text-transform: uppercase;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.heading span{
+    text-transform: uppercase;
+    color: rgb(178, 249, 71);
+
+}
+.heading {
+    font-family: "Bungee Inline", sans-serif;
+   
+  }
+.feature h1{
+    color:white
+}
+.feature{
+    background-color: rgb(34, 34, 34);
+    
+}
+
+.feature .feature-slider{
+    padding-bottom: 4rem;
+
+}
+.feature .feature-slider .box{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    margin: 1px 0;
+        
+  
+}
+.feature .feature-slider .box .image{
+    
+    
+    margin: 0px 10px 0px 15px;
+}
+.feature .feature-slider .box .image img{
+    height: 300px;
+    width: 280px;
+   
+
+}
+.feature .feature-slider .box:hover .image img{
+    transform: scale(1.05);
+}
+.feature .feature-slider .box .content{
+    padding: 1rem 0;
+    position: absolute;
+    top: 150px;
+    left:150px;
+    transform: translate(-50%,-50%);
+    align-items: center;
+
+}
+.feature .feature-slider .box .content h5{
+    
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, .3);
+    padding: .2rem;
+    margin-top: .5rem;
+}
+.feature .feature-slider .box .content .price{
+    background: rgba(0, 0, 0, .3);
+    width:60px;
+   margin-left: 50px;
+    font-weight: bolder;
+    color: white;
+}
+.feature .feature-slider .box:hover .content.price{
+    background: none;
+    border: .3rem solid #fff;
+}
+.wrapper{
+  display: flex;
+  
+}
+@media only screen and (max-width: 600px) {
+   .wrapper{
+      display: flex;
+      flex-direction: column;
+    }
+    .feature .feature-slider .box .content h5{
+           margin-left: 60%;
+    }
+    .feature .feature-slider .box .content .price{
+      margin-left: 70%;
+    }
+    .feature .feature-slider .box .image img{
+        height: 400px;
+        width: 80%;
+       margin-top:20px;
+    
+    }
+  }
+.choose{
+    padding-bottom: 0;
+}
+.choose__overflow{
+    position: relative;
+
+}
+.choose__container{
+    row-gap: 3rem;
+}
+.choose__content .section__data{
+    margin-bottom: 2rem;
+
+}
+.choose_description{
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+.choose__data{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+}
+.choose__group{
+    text-align: center;
+}
+.choose__number{
+    font-size: var(--h1-font-size);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    margin-bottom: .25rem;
+}
+.choose__subtitle{
+    font-size: large;
+
+}
+.choose__triangle{
+    height: 325px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    clip-path: polygon(0 0,0 100%, 100% 100%);
+
+}
+.choose__triangle-1{
+    width: 305px;
+    background-color: rgb(178, 249, 71);
+}
+.choose__triangle-2{
+    width: 205px;
+    background-color: rgb(178, 249, 71);
+}
+.choose__triangle-3{
+    width: 105px;
+    background-color: rgb(178, 249, 71);
+}
+.choose__img{
+    width: 460px;
+    display: block;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+
+}
+
+.pricing__container{
+    grid-template-columns: 285px;
+    justify-content: center;
+    row-gap: 2rem;
+
+}
+.pricing__card,
+.pricing__shape,
+.pricing__list{
+    display: grid;
+}
+.pricing__card{
+    row-gap: 2rem;
+    background-color: rgb(178, 249, 71);
+    padding: 50px;
+}
+.pricing__img{
+    width: 35px;
+}
+.pricing__shape{
+    width: 140px;
+    height: 140px;
+    background-color: rgb(112, 112, 112);
+    border-radius: 50%;
+    place-items: center;
+    margin-bottom: 1rem;
+
+}
+
+.pricing__title{
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    margin-bottom: .5rem;
+
+}
+.pricing__number{
+    font-size: larger;
+}
+.pricing__list{
+    row-gap: 1rem;
+}
+.pricing__item{
+    display: flex;
+    column-gap: .5rem;
+    align-items: center;
+    font-size: small;
+    
+}
+.pricing__item i{
+    font-size: 1.25rem;
+    color: rgb(178, 249, 71);
+}
